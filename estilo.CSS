@@ -1,7 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Cores ==========*/
+  /*Cores HSL(hue, saturação, menos brilho)*/
+  --first-color: hsl(195, 100%, 30%);
+  --gradient-color: linear-gradient(90deg,
+                    hsl(210, 55%, 20%),
+                    hsl(192, 62%, 25%));
+  --title-color: hsl(210, 52%, 20%);
+  --text-color: hsl(210, 24%, 15%);
+  --white-color: #fff;
+  --body-color: hsl(210, 55%, 85%);
+  
+    /*========== Fonte e tipografia ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --second-font: "Lora", serif;
+  --biggest-font-size: 2.25rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*========== Tipografia responsiva ==========*/
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+  }
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  background-color: var(--body-color);
   }
   
   header {
@@ -70,6 +120,26 @@ body {
   .cursos{
     text-align: left;
   }
+  .imagem-container {
+    /* Defina as propriedades do container (div) */
+    width: 100%; /* Largura desejada */
+    height: 200px; /* Altura desejada */
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+   
+    /* Opcional: margem e padding para espaçamento */
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .imagem-container img {
+    /* Defina as propriedades da imagem */
+    max-width: 100%; /* Ajuste responsivo */
+    max-height: 100%; /* Ajuste responsivo */
+    display: block; /* Remove espaço extra abaixo da imagem */
+  }
+  
   footer{
     background-color: #333;
     color: #fff;
