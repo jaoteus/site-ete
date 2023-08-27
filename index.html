@@ -6,6 +6,8 @@
   <title>ETE Gil Rodrigues</title>
   <link rel="shortcut icon" href="imagem/logo-ete-2.jpg" type="image/x-icon">
   <link rel="stylesheet"  href="estilo.CSS">
+  <script type="module" src="script.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
   <img class="logo-governo" src="imagem/logo-governo-pe.png" alt="">
@@ -138,56 +140,5 @@
       <p>&copy; 2023 - Escola Técnica. Todos os direitos reservados.</p>
     </div>
   </footer>
-  <script>
-    // Obtém todos os links de navegação
-    const navLinks = document.querySelectorAll('nav a');
-
-    // Obtém todas as seções
-    const sections = document.querySelectorAll('section');
-
-    // Função para alternar a classe "hidden" nas seções
-    function toggleSection(sectionId) {
-      sections.forEach(section => {
-        if (section.id === sectionId) {
-          section.classList.remove('hidden');
-        } else {
-          section.classList.add('hidden');
-        }
-      });
-    }
-
-    // Adiciona o evento de clique aos links de navegação
-    navLinks.forEach(link => {
-      link.addEventListener('click', e => {
-        e.preventDefault();
-        const targetSectionId = link.getAttribute('href').substring(1);
-        toggleSection(targetSectionId);
-
-        // Atualiza a classe "active" no link de navegação selecionado
-        navLinks.forEach(navLink => {
-          if (navLink === link) {
-            navLink.classList.add('active');
-          } else {
-            navLink.classList.remove('active');
-          }
-        });
-      });
-    });
-
-    // Função para alternar as abas
-    function changeTab(evt, tabId) {
-      // Obtém todos os elementos com a classe "tab-content"
-      const tabContents = document.querySelectorAll('.tab-content');
-
-      // Remove a classe "active" de todas as abas
-      tabContents.forEach(tab => {
-        tab.classList.remove('active');
-      });
-
-      // Adiciona a classe "active" na aba selecionada
-      const selectedTab = document.getElementById(tabId);
-      selectedTab.classList.add('active');
-    }
-  </script>
 </body>
 </html>
