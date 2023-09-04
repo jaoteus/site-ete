@@ -30,14 +30,7 @@
   --z-fixed: 100;
 }
 
-/*========== Tipografia responsiva ==========*/
-@media screen and (min-width: 1024px) {
-  :root {
-    --biggest-font-size: 4rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-  }
-}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -143,6 +136,13 @@ body {
   width: 180px;
   height: 70px;
   margin-top: 10px;
+}
+
+.botao-download-DS {
+  background-color: #007bff;
+  color: var(--white-color);
+  padding: .4rem;
+  text-decoration: none;
 }
 
   footer{
