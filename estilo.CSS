@@ -138,6 +138,13 @@ body {
   margin-top: 10px;
 }
 
+.botao-download-DS {
+  background-color: #007bff;
+  color: var(--white-color);
+  padding: .4rem;
+  text-decoration: none;
+}
+
   footer{
     background-color: var(--footer-color);
     color: var(--title-color);
