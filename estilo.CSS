@@ -5,8 +5,6 @@
 
   /*========== Cores ==========*/
   /*Cores HSL(hue, saturação, menos brilho)*/
-  --first-color: hsl(195, 100%, 30%);
-  --footer-color: rgb(224,255,255);
   --title-color: hsl(210, 52%, 20%);
   --text-color: hsl(210, 24%, 15%);
   --white-color: #fff;
@@ -42,32 +40,41 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  background-color: var(--body-color);
-  }
-  
+  background-image: linear-gradient(to right, #50c3dc, #5bc5df, #66c6e1, #70c8e4, #79c9e6, #85cde6, #91d2e6, #9cd6e7, #aedee7, #c1e5e9, #d4ebec, #e7f2f1);
+}
   header {
-    background-color: var(--footer-color);
     color: var(--title-color);
     padding: 10px;
     text-align: center;
+    background-color: #e7f2f1;
   }
   
   nav {
-    background-color: var(--footer-color);
+    
     padding: 10px;
     text-align: center;
+    background-color: #e7f2f1;
+    top: 0;
+    left: 0;
+    transition: background-color 0.5s ease;
   }
   
-  nav a {
-    margin: 0 10px;
+  nav a{
+    margin: 20px;
     color: #333;
     text-decoration: none;
-    transition: color 0.3s;
+    text-decoration: none;
+    color:  #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+   
+
+  }
+
+  nav a:hover{
+    color:#3D3EC5;
   }
   
-  nav a:hover {
-    color: #666;
-  }
   
   section {
     padding: 20px;
@@ -82,25 +89,7 @@ body {
     display: none;
   }
   
-  .tab {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background-color: #eee;
-    cursor: pointer;
-  }
-  
-  .tab.active {
-    background-color: #ccc;
-  }
-  
-  .tab-content {
-    display: none;
-  }
-  
-  .tab-content.active {
-    display: block;
-  }
+
   .logo-governo {
     position: absolute;
     top: 10px;
@@ -108,7 +97,7 @@ body {
     width: 200px;
     height: auto;
   }
-  .cursos{
+  .cursos {
     text-align: left;
   }
   .imagem-container {
@@ -145,9 +134,10 @@ body {
   text-decoration: none;
 }
 
-  footer{
-    background-color: var(--footer-color);
+  footer {
+    
     color: var(--title-color);
+    background-color: #e7f2f1;
     padding: 20px;
     text-align: center;
     margin-top: 50px;
