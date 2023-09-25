@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ETE Gil Rodrigues</title>
-  <link rel="shortcut icon" href="imagem/logo-ete-2.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/ICONE-ETE.jpeg" type="image/x-icon">
   <link rel="stylesheet"  href="estilo.CSS">
   <script type="module" src="script.js"></script>
   <script src="script.js"></script>
@@ -18,8 +18,8 @@
     <a href="#">Home</a>
     <a href="./pages/estagios.HTML">Estágios</a>
     <a href="./pages/about.html">Conheça a ETE</a>
-    <a href="pages/cursos.html">Cursos</a>
-    <a href="pages/estagios.HTML">Contato</a>
+    <a href="#cursos">Cursos</a>
+    <a href="#contato">Contato</a>
     <a href="#galeria">Galeria</a>
   </nav>
   <section >
@@ -32,34 +32,7 @@
   </section>
  
 
-  <section id="contato" class="hidden">
-    <h2>Contato</h2>
-    <div class="tabs">
-      <div class="tab" onclick="changeTab(event, 'enviarEmail')">Enviar E-mail</div>
-      <div class="tab" onclick="changeTab(event, 'receberEmail')">Receber E-mail</div>
-    </div>
-    <div id="enviarEmail" class="tab-content">
-      <h3>Enviar E-mail</h3>
-      <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome"><br><br>
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem"></textarea><br><br>
-        <input type="submit" value="Enviar">
-      </form>
-    </div>
-    <div id="receberEmail" class="tab-content">
-      <h3>Receber E-mail</h3>
-      <p>Se inscreva para receber nossas novidades por e-mail.</p>
-      <form>
-        <label for="emailReceber">E-mail:</label>
-        <input type="email" id="emailReceber" name="emailReceber"><br><br>
-        <input type="submit" value="Inscrever">
-      </form>
-    </div>
-  </section>
+  
   <section id="galeria" class="hidden">
     <h2>Galeria</h2>
     <!-- Conteúdo da seção de galeria -->
