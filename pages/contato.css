@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    
    
 }
  
@@ -14,12 +15,22 @@ body {
 .container-form {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-   
-    padding: 20px;
+
+    padding: 60px;
     display: inline-block;
     text-align: left;
+    
 }
 
+.section-navbar {
+    max-height: 700px;
+    overflow-y: auto;
+}
+
+div p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
  .center-form {
     border-radius: 5px;
@@ -32,23 +43,33 @@ body {
 
 
 .form-group {
-    margin: 10px 0;
-    text-align: left;
+    margin: 5px;
+    text-align: center;
+    margin-top: 10px;
     
 }
 
+ 
 
 button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    font-size:16px;
+    font-family:Arial;
+    width:141px;
+    height:45px;
+    border-width:2px;
+    color:#fff;
+    font-weight:bold;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+    text-shadow:inset 0px 5px 20px #263666;
+    background:linear-gradient(#2dabf9, #0688fa);
 }
 
 button:hover {
-    background-color: #0056b3;
+    background: linear-gradient(#0688fa, #2dabf9);
 }
 
 
@@ -69,9 +90,8 @@ textarea {
 
 footer {
     text-align: center;
-    padding: 10px;
-    position: absolute;
+    padding: 5px;
+    position: fixed;
     bottom: 0;
-    left: 0;
     width: 100%;
   }

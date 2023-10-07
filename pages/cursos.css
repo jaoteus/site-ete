@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+}
+
+
 .botao-download-DS {
     font-size:15px;
     font-family:Arial;
@@ -20,6 +28,51 @@
     background: linear-gradient(#019ad2, #33bdef);
 }
 
+.botao-download-ENF {
+  font-size: 15px;
+  font-family: Arial;
+  width: 123px;
+  height: 38px;
+  border: 0;
+  color: #ffffff;
+  font-weight: bold;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  box-shadow: 0px 1px 0px 0px #171718;
+  text-shadow: 0px -1px 0px #5b6178;
+  background: linear-gradient(#2b91b6, #019ad2);
+  padding: 5px; 
+
+}
+
+.botao-download-ENF:hover{
+  background: linear-gradient(#019ad2, #33bdef);
+  
+}
+
+.botao-download-ADM {
+  font-size: 15px;
+  font-family: Arial;
+  width: 123px;
+  height: 38px;
+  border: 0;
+  color: #ffffff;
+  font-weight: bold;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  box-shadow: 0px 1px 0px 0px #171718;
+  text-shadow: 0px -1px 0px #5b6178;
+  background: linear-gradient(#2b91b6, #019ad2);
+  padding: 5px; 
+}
+
+.botao-download-ADM:hover{
+  background: linear-gradient(#019ad2, #33bdef);
+}
 
   footer {
     text-align: center;
@@ -30,9 +83,4 @@
     width: 100%;
   }
   
-  body {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    min-height: 100vh;
-  }
+  
