@@ -1,0 +1,29 @@
+.table-container {
+    margin: 0 auto; /* Centraliza a tabela horizontalmente */
+    padding: 20px; /* Espaçamento interno para criar a caixa */
+    border: 2px solid #333; /* Borda sólida de 2px com cor #333 */
+    border-radius: 10px; /* Cantos arredondados */
+    width: 80%; /* Largura da caixa */
+}
+
+table {
+    width: 100%; /* Largura da tabela */
+}
+
+td {
+   padding: 15px; /* Espaçamento interno para células da tabela */
+   text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
