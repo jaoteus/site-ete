@@ -19,6 +19,16 @@ h2 {
     text-align: center;
 }
 
+a {
+ text-decoration: none;
+}
+
+
+a:hover {
+  color: red;
+}
+
+
 footer {
     text-align: center;
     padding: 5px;
