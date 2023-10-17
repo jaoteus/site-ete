@@ -66,6 +66,8 @@ button {
     box-shadow:inset 0px -3px 7px 0px #29bbff;
     text-shadow:inset 0px 5px 20px #263666;
     background:linear-gradient(#2dabf9, #0688fa);
+    border: none;
+    cursor: pointer;
 }
 
 button:hover {
