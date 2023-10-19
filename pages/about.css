@@ -26,3 +26,19 @@
     width: 100%;
     
   }
+  .container-content{
+    text-align: left;
+    padding: 10px;
+
+    /*COR DE FUNDO*/
+      color: var(--text-color);
+      font-family: var(--body-font);
+      font-size: var(--normal-font-size);
+      font-weight: var(--font-medium);
+      background-image: linear-gradient(to right, #50c3dc, #5bc5df, #66c6e1, #70c8e4, #79c9e6, #85cde6, #91d2e6, #9cd6e7, #aedee7, #c1e5e9, #d4ebec, #e7f2f1);
+
+
+  }
+  ul{
+    padding: 0 0 0 30px;
+  }
