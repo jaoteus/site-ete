@@ -128,3 +128,54 @@ body {
     left: 0;
     width: 100%;
   }
+
+.container-content{
+    background-color: #e7f2f1;/*VER SE FICA BOM */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 14px;
+    margin: 0 20px 0 20px;
+}
+.content-1{
+  padding: 12px;
+  margin: 0 0 10px 0;
+}
+.content-1-h1{
+  text-align: center;
+}
+.content-2{
+  padding: 12px;
+  margin: 0 0 10px 0;
+}
+.content-2-h1{
+  text-align: center;
+}
+.content-3{
+  padding: 12px;
+  margin: 0 0 10px 0;
+}
+.content-3-h1{
+  text-align: center;
+}
+.content-4{
+  padding: 12px;
+  margin: 0 0 10px 0;
+}
+.content-4-h1{
+  text-align: center;
+}
+.content-5{
+  padding: 12px;
+  margin: 0 0 10px 0;
+}
+.content-5-h1{
+  text-align: center;
+}
+.content-6{
+  padding: 12px;
+  margin: 0 0 10px 0;
+}
+.content-6-h1{
+  text-align: center;
+}
