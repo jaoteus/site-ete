@@ -10,11 +10,11 @@
     position: fixed;
   }
   
-  .imagem-container img {
+  /* .imagem-container img {
     max-width: 100%; 
     max-height: 100%; 
     display: block; 
-  }
+  } */
 
   footer {
     
@@ -24,3 +24,9 @@
     width: 100%;
     
   }
+/* .imagem-container{
+  padding: 12px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+} */
