@@ -93,7 +93,7 @@ textarea {
 footer {
     text-align: center;
     padding: 5px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
   }
