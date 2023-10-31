@@ -115,6 +115,14 @@ header nav ul {
   .footer-navbar {
     padding: 10px;
     text-align: center;
+<<<<<<< HEAD
+=======
+    margin-top: 50px;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+>>>>>>> 626596cab3265aee25663941cc74f1d09bc1419f
   }
 
   .footer-navbar nav ul li {
