@@ -1,9 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  min-height: 100vh;
-}
+
 
 
 .botao-download-DS {
@@ -74,6 +69,10 @@ body {
   background: linear-gradient(#019ad2, #33bdef);
 }
 
+<<<<<<< HEAD
+ 
+  
+=======
   footer {
     text-align: center;
     padding: 5px;
@@ -92,3 +91,4 @@ body {
 ul, li{
   padding: 0 0 0 20px;
 }
+>>>>>>> 626596cab3265aee25663941cc74f1d09bc1419f

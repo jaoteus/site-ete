@@ -1,55 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    
-   
-}
- 
-.container {
-   
-    text-align: center;
-   
- }
-
-.container-form {
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-    padding: 60px;
-    display: inline-block;
-    text-align: left;
-    
-}
-
-.section-navbar {
-    max-height: 700px;
-    overflow-y: auto;
-}
-
-div p {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
- .center-form {
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    display: inline-block;
-    text-align: left;
-}
-
-
-
-.form-group {
-    margin: 5px;
-    text-align: center;
-    margin-top: 10px;
-    
-}
 
  
+<<<<<<< HEAD
+=======
 
 button {
     font-size:16px;
@@ -104,3 +56,4 @@ footer {
     width: 100%;
   }
   
+>>>>>>> 626596cab3265aee25663941cc74f1d09bc1419f
