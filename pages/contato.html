@@ -8,58 +8,67 @@
     <link rel="stylesheet" href="./contato.css">
 </head>
 <body>
-    <header>
-        <img class="logo-governo-pe" src="../assets/logo-governo-pe.png" alt="">
-        <h1>ETE Advogado José David Gil Rodrigues</h1>
-      </header>
+  <header>
     <nav>
-        <a href="../index.html">Home</a>
-        <a href="../pages/estagios.html">Estágios</a>
-        <a href="../pages/about.html">Conheça a ETE</a>
-        <a href="../pages/cursos.html">Cursos</a>
-        <a href="#">Contato</a>
-        <a href="../pages/galeria.html">Galeria</a>
-      </nav>
+      <div>
+    <img class="logo" src="/site-ete/assets/ICONE-ETE.svg" alt="logo ete" width="50px" height="50px"> 
+  </div>
+  <ul class="menu">
+    <li>
+    <a href="/site-ete/index.html">Home</a>
+  </li>
+  <li>
+    <a href="/site-ete/pages/estagios.html">Estágios</a>
+  </li>
+  <li>
+    <a href="/site-ete/pages/about.html">Conheça a ETE</a>
+  </li>
+  <li>
+    <a href="/site-ete/pages/cursos.html">Cursos</a>
+  </li>
+  <li>
+    <a href="#">Contato</a>
+  </li>
+  <li>
+    <a href="/site-ete/pages/galeria.html">Galeria</a>
+  </li>
+  </ul>
+</nav>
+  </header>
       <section class="section-navbar">
-        <h2>Contato</h2>
-        <div class="container">
-            
-          <form class="center-form">
+        <div class="invite">
+          <h1>Entre em contato conosco:</h1>
+          <p>Dúvidas, sugestões ou pedidos especiais? Estamos aqui para ajudar.</p>
+        </div>
 
-            <div class="form-group"> 
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome"><br><br>
-            </div>
-
-            <div class="form-group">
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email"><br><br>
-            </div>
-
-            <div class="form-group">
-            <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem"></textarea><br><br>
-            <button type="submit">Enviar</button>
-           </div>
-        
+        <div class="form-wrapper">
+          <div class="form">
+            <h2>Fale conosco: </h2>
+            <span>Sua opinião é importante para nós. Não hesite em entrar em contato para qualquer dúvida, feedback ou
+              assistência
+              que você possa precisar. Estamos ansiosos para ouvir de você!</span>
+            <form action="" method="">
+              <fieldset>
+                <div class="inputs">
+                  <div class="email">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                  </div>
+                  <div class="password">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                </div>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+                <div class="submit-wrapper">
+                  <button type="submit">Enviar</button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
         </div>
-          </form>
-        </div>
-        <div>
-          <!-- <h3>Receber E-mail</h3>
-          <p>Se inscreva para receber nossas novidades por e-mail.</p> -->
-          <!-- <form class="container-form">
-            <div class="form-group">
-            <label>E-mail:</label>
-            <input type="email" id="emailReceber" name="emailReceber"><br><br>
-            <button type="submit">Inscrever</button>
-        </div>
-          </form> -->
-        </div>
+      </div>
       </section>
-      <footer>
-        
-        Todos os direitos reservados  | Escola Técnica 2023 &copy;
      
-   </footer>
       </body>
