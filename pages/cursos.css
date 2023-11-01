@@ -69,26 +69,5 @@
   background: linear-gradient(#019ad2, #33bdef);
 }
 
-<<<<<<< HEAD
  
   
-=======
-  footer {
-    text-align: center;
-    padding: 5px;
-    /* position: absolute; */
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-  
-.cursos{
-  border: 1px solid black;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 0 0 0 20px;
-}
-ul, li{
-  padding: 0 0 0 20px;
-}
->>>>>>> 626596cab3265aee25663941cc74f1d09bc1419f

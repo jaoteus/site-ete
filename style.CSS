@@ -33,7 +33,7 @@ html {
 
 
 body>* {
- font-size: 1.7rem;
+ font-size: 1.8rem;
  
 }
 
@@ -81,24 +81,17 @@ header nav ul {
   
 
 
-.botao-download-DS {
-  background-color: #007bff;
-  color: var(--white-color);
-  padding: .4rem;
-  text-decoration: none;
-}
-
 .menu li a {
   text-decoration: none;
   color: var(--gray_text);
-  border-bottom: .2rem solid rgba(0, 0, 0, 0);
-  border-radius: .2rem;
+  border-bottom: .1rem solid rgba(0, 0, 0, 0);
+  border-radius: .1rem;
   transition: border .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .menu li a:hover {
-  border-bottom: .2rem solid var(--body-color);
-  border-radius: 2rem;
+  border-bottom: .5rem solid var(--body-color);
+  border-radius: 1rem;
 }
 
 .menu li #active {
@@ -115,14 +108,6 @@ header nav ul {
   .footer-navbar {
     padding: 10px;
     text-align: center;
-<<<<<<< HEAD
-=======
-    margin-top: 50px;
-    /* position: fixed; */
-    bottom: 0;
-    left: 0;
-    width: 100%;
->>>>>>> 626596cab3265aee25663941cc74f1d09bc1419f
   }
 
   .footer-navbar nav ul li {
