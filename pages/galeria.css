@@ -1,35 +1,6 @@
-<<<<<<< HEAD
-=======
-.imagem-container {
-    
-    width: 100%; 
-    height: 200px; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin: 20px;
-    padding: 10px;
-    position: fixed;
-  }
-  
-  /* .imagem-container img {
-    max-width: 100%; 
-    max-height: 100%; 
-    display: block; 
-  } */
-
-  footer {
-    
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    
-  }
-/* .imagem-container{
-  padding: 12px;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-} */
->>>>>>> 626596cab3265aee25663941cc74f1d09bc1419f
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
