@@ -48,22 +48,22 @@
             <span>Sua opinião é importante para nós. Não hesite em entrar em contato para qualquer dúvida, feedback ou
               assistência
               que você possa precisar. Estamos ansiosos para ouvir de você!</span>
-            <form action="" method="">
+            <form id="contactForm">
               <fieldset>
                 <div class="inputs">
-                  <div class="email">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
+                  <div class=name">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
                   </div>
-                  <div class="password">
+                  <div class="email">
                     <label for="email">E-mail:</label>
                     <input type="email" id="email" name="email" required>
                   </div>
                 </div>
-                <label for="mensagem">Mensagem:</label><br>
-                <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br>
                 <div class="submit-wrapper">
-                  <button class="buttonClass">Enviar</button>
+                  <button type="submit" class="buttonClass">Enviar</button>
                 </div>
               </fieldset>
             </form>
@@ -74,5 +74,6 @@
       <footer>
         Todos os direitos reservados | Escola Técnica 2023 &copy;
       </footer>
+      <script src="../services/messageHandler.js"></script>
      
       </body>
